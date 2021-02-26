@@ -1,11 +1,9 @@
 package com.company;
-
+import java.io.File;
 public class Phone
 {
-    string producer;
-    string model;
+    String producer;
+    String model;
     double screenSize;
-    string operationSystem;
-
-
+    String operationSystem;
 }

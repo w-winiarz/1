@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	Animal dog = new Animal();
-	dog.species= "dog";
+	dog.Species= "dog";
 	dog.name="Haiku";
 	dog.weight=8.0;
 	dog.feed();

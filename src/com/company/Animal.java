@@ -2,20 +2,19 @@ package com.company;
 import java.io.File;
 
 
-
 public class Animal
 
 {
-    string species;
-    double weight;
-    string name;
+    String Species;
+    Double weight;
+    String name;
     File pic;
 
 
     void feed()
     {
         weight+=1;
-        System.out.println("Thx for food");
+        System.out.println("Thx for food fghfgh");
     }
 
 }
