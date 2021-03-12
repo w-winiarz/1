@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	Animal dog = new Animal( "dog",2.3,"Szarik");
+
+	dog.name="szarik"
+
+
 	dog.feed();
 		dog.feed();
 		dog.feed();
@@ -14,6 +18,9 @@ public class Main {
 	me.lastName="Winiarz";
 	me.pet = dog;
 
-	System.out.println("Zwoerzak nazywa się" + me.pet.name);
+	System.out.println("Zwierzak nazywa się" + me.pet.name);
+
+
+
     }
 }

@@ -24,8 +24,25 @@ public Animal(String species,Double weight,String name)
 
     void feed()
     {
+        if(weight<=0)
+        {System.out.println("NIE ŻYJE!!!");}
+        else{
         weight+=1;
-        System.out.println("Thx for food fghfgh");
+        System.out.println("Thx for food");}
     }
+
+    void takeForAWalk()
+{
+
+    weight-=1;
+    if(weight=0) {System.out.println("Nie żyje");}
+   if (weight>0)
+        { weight-=1;
+        System.out.println("Wyszedłeś na spacer");}
+   if(weight<0)
+   {System.out.println("NIE ŻYJE!!!!");}
+
+}
+
 
 }
