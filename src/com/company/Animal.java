@@ -8,15 +8,14 @@ public class Animal {
     public String name;
     public File pic;
 
-    static final public double DEFAULT_ANIMAL_WEIGHT = 1.0
-    static final public double DEFAULT_DOG_WEIGHT = 1.0
-    static final public double DEFAULT_CAT_WEIGHT = 1.0
-    static final public double DEFAULT_COW_WEIGHT = 1.0
-}
-public Animal(String species)
+    static final public double DEFAULT_ANIMAL_WEIGHT = 1.0;
+    static final public double DEFAULT_DOG_WEIGHT = 1.0;
+    static final public double DEFAULT_CAT_WEIGHT = 1.0;
+    static final public double DEFAULT_COW_WEIGHT = 1.0;
 
+public Animal(String species)
 {
-    this.species=species
+    this.species=species;
             switch(this.species)
             {
             case"dog":
@@ -38,25 +37,26 @@ public Animal(String species)
 
             }
 }
-
-
-
-
-    void feed()
-    {
-       if (this.weight<=0)
-        {System.out.println("Sorry!");}
-        else(this.weight+=1;)
+    void feed() {
+        if (this.weight <= 0)
         {
+            System.out.println("Sorry!");
+        }
+        else
+        {
+            this.weight += 1;
             System.out.println("Thx for food");
         }
-
+    }
 
     void takeForAWalk()
         {
-            if (this.weight <= 0) {
+            if (this.weight <= 0)
+            {
                 System.out.println("Sorry!");
-            } else {
+            }
+            else
+            {
                 this.weight -= 1;
                 System.out.println("Nice walk!");
             }
