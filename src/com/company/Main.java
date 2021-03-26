@@ -16,5 +16,9 @@ public class Main {
 		dog.takeForAWalk();
 		dog.takeForAWalk();
 		System.out.println("Zwierzak nazywa się" + me.pet.name);
+
+		me.car = new Car("Punto","Fiat");
+
+
 	}
 }
